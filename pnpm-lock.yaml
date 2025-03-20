@@ -20,6 +20,9 @@ importers:
       bcrypt:
         specifier: ^5.1.1
         version: 5.1.1
+      bcrypt-ts-edge:
+        specifier: ^3.0.1
+        version: 3.0.1
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -374,6 +377,9 @@ packages:
 
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
+
+  bcrypt-ts-edge@3.0.1:
+    resolution: {integrity: sha512-Gq0tyh6qfnFF1ojObSJo0RpZ8Pkm1HTqiLRsaMjeQOWDpIhfa2OURLx2UDcvT9EiUo9apfVk6zZDD+WpwF72fg==}
 
   bcrypt@5.1.1:
     resolution: {integrity: sha512-AGBHOG5hPYZ5Xl9KXzU5iKq9516yEmvCKDg3ecP5kX2aB6UqTeXZxk2ELnDgDm6BQSMlLt9rDB4LoSMx0rYwww==}
@@ -1332,6 +1338,8 @@ snapshots:
       postcss-value-parser: 4.2.0
 
   balanced-match@1.0.2: {}
+
+  bcrypt-ts-edge@3.0.1: {}
 
   bcrypt@5.1.1:
     dependencies:
